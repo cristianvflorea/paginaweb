@@ -28,22 +28,38 @@
 		</div>
 	</div>
 </header>
-
-<div id=menu>
+<div id="Hcontacto">
+<h1>Contacto</h1>
 </div>
-
-<div class="intro">
-	<p>Viajes Peculiares es un sitio creado para guiar a viajeros de cualquier parte del mundo hacia destinos menos conocidos pero recomendables. </p>
-</div>
-
-<div class="palm">
-	<img src="imagenes/palmeralelche.gif" alt="Foto Palmeral Elche"/>
-</div>
-
-<div id="intro2">
-	<p>El mundo es un lugar vasto. Con tanto que ver, muchos turistas nos conformamos con el típico destino… aquel denominado “imperdible”. Sin embargo, aquí te proponemos algunos destinos poco conocidos para añadir a tu “bucket list”. ¿Te animas?</p>
- </div>
- 
+<form action="http://www.inertinc.com/cursos/cursoweb2015/evaluf3/" method="post">
+	<label id="nombre" for="nombre">Nombre:</label>
+	<input type="text" name="Nombre" /> <br>
+	
+	<label id="email" for="email">Email:</label>
+	<input type="text" name="emailusuario"/> <br>
+	
+	<label id="mensaje" for="Sugerencias">Tu mensaje:</label>
+	<textarea name="Sugerencias"></textarea><br>
+	
+	<button type="submit"> Enviar</button>
+	
+	<input type="hidden" name="emailalumno" value="christian_f92@yahoo.com" />
+	<input type="hidden" name="plantillacorreo" value="<!DOCTYPE html>
+<html lang=&quot; es &quot; >
+<head>
+ <meta charset=&quot; utf-8 &quot; />
+ <title>Plantilla</title>
+ <link rel= &quot; stylesheet &quot; type= &quot; text/css &quot; href= &quot; estilo.css &quot; />
+</head>
+<body>
+<h1>Correo html </h1>
+ <p>Se ha recibido un nuevo formulario de contacto del usuario %Nombre% con un comentario acerca de la web.</p>
+ <p>El comentario es el siguiente:</p>
+ <p>%Sugerencias%</p>
+</body>
+</html> "/>
+	<input type="hidden" name="clavesecreta" value="3a881f46d2" />
+</form>
 <footer id="pie">
 	<p>© Viajes Peculiares 2017</p>
 </footer>
